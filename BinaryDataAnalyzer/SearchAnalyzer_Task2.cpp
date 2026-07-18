@@ -2,6 +2,8 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+#include "Analyzer.h"
+
 using namespace std;
 
 /*
