@@ -1,9 +1,26 @@
+/*
+    Signature Assignment: Binary Data Analyzer
+
+    Group Members:
+    Marcus Wiggs
+    Malachi Uche
+    Eduardo Uribe
+
+    Course: CSC252
+	Instructor: Professor Hong Shen
+	Date: 07/18/2026
+    File: StatisticsAnalyzer.cpp
+
+    Purpose:
+    Sorts binary data and calculates the minimum,
+    maximum, mean, median, and mode.
+*/
+
 #include "StatisticsAnalyzer.h"
 
 #include <iomanip>
 #include <sstream>
-
-void selection_sort(int* values, int size);
+#include "Algorithms.h"
 
 std::string StatisticsAnalyzer::analyze()
 {

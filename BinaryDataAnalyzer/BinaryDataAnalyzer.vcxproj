@@ -200,12 +200,22 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithms.h" />
     <ClInclude Include="Analyzer.h" />
+    <ClInclude Include="BinaryReader.h" />
+    <ClInclude Include="DuplicatesAnalyzer.h" />
+    <ClInclude Include="MissingAnalyzer.h" />
+    <ClInclude Include="SearchAnalyzer.h" />
     <ClInclude Include="StatisticsAnalyzer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Algorithms.cpp" />
+    <ClCompile Include="Analyzer.cpp" />
+    <ClCompile Include="BinaryReader.cpp" />
+    <ClCompile Include="DuplicatesAnalyzer.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SearchAnalyzer_Task2.cpp" />
+    <ClCompile Include="MissingAnalyzer.cpp" />
+    <ClCompile Include="SearchAnalyzer.cpp" />
     <ClCompile Include="StatisticsAnalyzer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

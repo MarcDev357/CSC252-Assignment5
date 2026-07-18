@@ -2,16 +2,13 @@
 
 #include "Analyzer.h"
 
-class StatisticsAnalyzer : public Analyzer
+class MissingAnalyzer : public Analyzer
 {
 public:
-    StatisticsAnalyzer(
+    MissingAnalyzer(
         const int* inputValues,
         int inputSize
-    )
-        : Analyzer(inputValues, inputSize)
-    {
-    }
+    );
 
     std::string analyze() override;
 };
