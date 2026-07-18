@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="BinaryDataAnalyzer/BinaryDataAnalyzer.vcxproj" Id="2b24d820-70f9-410b-ac2d-c7454ed9d23e" />
+</Solution>

@@ -1,0 +1,29 @@
+# Visual Studio temporary files
+.vs/
+**/.vs/
+
+# Build output
+x64/
+x86/
+Debug/
+Release/
+ARM64/
+**/x64/
+**/x86/
+**/Debug/
+**/Release/
+**/ARM64/
+
+# Visual Studio user files
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Compiled output
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
