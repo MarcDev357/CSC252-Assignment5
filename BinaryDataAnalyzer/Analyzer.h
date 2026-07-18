@@ -8,13 +8,11 @@ protected:
     int* values;
     int size;
 
+    void cloneValues(const int* inputValues);
+
 public:
-    Analyzer(int* inputValues, int inputSize)
-        : values(inputValues), size(inputSize)
-    {
-    }
+    Analyzer(const int* inputValues, int inputSize);
+    virtual ~Analyzer();
 
     virtual std::string analyze() = 0;
-
-    virtual ~Analyzer() = default;
 };
