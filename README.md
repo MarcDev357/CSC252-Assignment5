@@ -14,7 +14,7 @@ The Binary Data Analyzer is a C++ console application that creates a binary file
 
 - Course: CSC252
 - Assignment: Signature Assignment 5
-- Instructor: ______________________________
+- Instructor: Professor Hong Shen
 - Submission Date: July 18, 2026
 
 ## Main Features
